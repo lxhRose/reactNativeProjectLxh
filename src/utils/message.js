@@ -3,7 +3,7 @@
  * @author 吕兴海
  * @update 2019/11/02
  */
-import { resetMessageArr } from "../component/message/action";
+import { resetMessageArr } from "../components/message/action";
 
 const Massage = {
   info: function (message) {

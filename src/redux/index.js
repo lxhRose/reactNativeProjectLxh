@@ -6,8 +6,8 @@
 import * as types from "./types";
 import { combineReducers } from 'redux';
 import home from '../pages/page1/reducer';
-import loading from "../component/loading/reducer";
-import message from "../component/message/reducer";
+import loading from "../components/loading/reducer";
+import message from "../components/message/reducer";
 
 const appReducer = combineReducers({
   home,

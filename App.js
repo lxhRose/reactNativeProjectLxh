@@ -15,7 +15,7 @@ import { createLogger } from 'redux-logger';
 import {
   ConnectedLoading,
   ConnectedMessage,
-} from "./src/component/index";
+} from "./src/components/index";
 import Utils from "./src/utils/index";
 
 const loggerMiddleware = createLogger();
