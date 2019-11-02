@@ -1,3 +1,8 @@
+/*
+ * @description 时间格式化
+ * @author 吕兴海
+ * @update 2019/11/02
+ */
 const DateFormat = {
   creatDate(str) { // 创建Date对象：str 必须是 yyyy-MM-dd hh:mm:ss 或者 yyyy-MM-dd 格式
     str = str.replace(/(^\s*)|(\s*$)/g, ""); // 去除两边空格

@@ -1,3 +1,8 @@
+/*
+ * @description 网络请求
+ * @author 吕兴海
+ * @update 2019/11/02
+ */
 import axios from 'axios';
 
 let instance = axios.create({

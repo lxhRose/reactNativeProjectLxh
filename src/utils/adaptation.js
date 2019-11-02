@@ -1,3 +1,8 @@
+/*
+ * @description 样式自适应
+ * @author 吕兴海
+ * @update 2019/11/02
+ */
 'use strict'
 import { Dimensions, PixelRatio } from 'react-native';
 
@@ -9,7 +14,7 @@ var adap = {
   screenHeith: Dimensions.get('window').height,
   pixelRatio: PixelRatio.get(),
   fontScale: PixelRatio.getFontScale(),
-  scale: Math.min(Dimensions.get('window').height / 2160, Dimensions.get('window').width / 3840),
+  scale: Math.min(Dimensions.get('window').height / 1080, Dimensions.get('window').width / 1920),
 
   /*宽度适配，例如我的设计稿某个样式宽度是50pt，那么使用就是：utils.autoWidth(50)*/
   w: function (value) {

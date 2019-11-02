@@ -1,3 +1,8 @@
+/*
+ * @description 提示框
+ * @author 吕兴海
+ * @update 2019/11/02
+ */
 import { resetMessageArr } from "../component/message/action";
 
 const Massage = {

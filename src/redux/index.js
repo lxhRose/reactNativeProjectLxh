@@ -1,3 +1,8 @@
+/*
+ * @description reduces统一出口
+ * @author 吕兴海
+ * @update 2019/11/02
+ */
 import * as types from "./types";
 import { combineReducers } from 'redux';
 import home from '../pages/page1/reducer';

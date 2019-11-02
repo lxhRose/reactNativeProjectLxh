@@ -1,3 +1,8 @@
+/*
+ * @description 加载时图标
+ * @author 吕兴海
+ * @update 2019/11/02
+ */
 import { toggleLoading } from "../component/loading/action";
 
 const Loading = {

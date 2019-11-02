@@ -1,11 +1,8 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- *
- * @format
- * @flow
+/*
+ * @description template
+ * @author 吕兴海
+ * @update 2019/11/02
  */
-
 import React, { Component } from 'react';
 import {
   StyleSheet,

@@ -1,3 +1,8 @@
+/*
+ * @description App入口
+ * @author 吕兴海
+ * @update 2019/11/02
+ */
 import React, { Component } from 'react';
 import connectedPage1 from './src/pages/page1/connectedPage1';
 import Page2 from './src/pages/page2/index';

@@ -1,3 +1,8 @@
+/*
+ * @description message
+ * @author 吕兴海
+ * @update 2019/11/02
+ */
 import React, { Component } from 'react';
 import { Message } from "react-native-ui-lvxinghai";
 

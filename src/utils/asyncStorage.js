@@ -1,3 +1,8 @@
+/*
+ * @description 本地存储
+ * @author 吕兴海
+ * @update 2019/11/02
+ */
 import AsyncStorage from "@react-native-community/async-storage";
 
 const _AsyncStorage = {

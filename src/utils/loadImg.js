@@ -1,3 +1,8 @@
+/*
+ * @description 图片预加载
+ * @author 吕兴海
+ * @update 2019/11/02
+ */
 import React from 'react';
 import { Image } from 'react-native';
 /**
