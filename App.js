@@ -1,17 +1,17 @@
 import React, { Component } from 'react';
-import connectedPage1 from './pages/page1/connectedPage1';
-import Page2 from './pages/page2/index';
+import connectedPage1 from './src/pages/page1/connectedPage1';
+import Page2 from './src/pages/page2/index';
 import { Provider } from 'react-redux';
 import { createStore, applyMiddleware } from 'redux';
-import rootReducer from "./redux/index";
+import rootReducer from "./src/redux/index";
 import { createAppContainer, createSwitchNavigator } from "react-navigation";
 import thunkMiddleware from 'redux-thunk';
 import { createLogger } from 'redux-logger';
 import {
   ConnectedLoading,
   ConnectedMessage,
-} from "./component/index";
-import Utils from "./utils/index";
+} from "./src/component/index";
+import Utils from "./src/utils/index";
 
 const loggerMiddleware = createLogger();
 let store = createStore(
